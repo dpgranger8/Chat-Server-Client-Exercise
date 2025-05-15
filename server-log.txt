@@ -103,3 +103,121 @@ Priority: u=0, i
 
 2025-05-15T14:28:42.790Z   /w 0 hello
 
+2025-05-15T14:53:22.871Z   Welcome, client 0
+2025-05-15T14:53:39.308Z   Welcome, client 1
+2025-05-15T14:53:45.351Z   /w 0 hello
+
+2025-05-15T14:56:40.879Z   Welcome, client 0
+2025-05-15T14:56:43.323Z   Welcome, client 1
+2025-05-15T14:56:48.366Z   /w 1 hello
+
+2025-05-15T14:57:02.616Z   /w 0 hello
+
+2025-05-15T14:57:06.889Z   /w 1 hello
+
+2025-05-15T14:57:48.463Z   Welcome, client 0
+2025-05-15T14:57:50.913Z   Welcome, client 1
+2025-05-15T14:57:56.032Z   /w 1 hellop
+
+2025-05-15T14:58:58.573Z   /w 3 hello
+
+2025-05-15T20:51:39.162Z   Welcome, client 0
+2025-05-15T20:52:03.967Z   Welcome, client 0
+2025-05-15T20:52:13.795Z   Welcome, client 1
+2025-05-15T20:52:23.721Z   /w 0 hello there!
+
+2025-05-15T20:52:37.930Z   /usern
+
+2025-05-15T20:52:44.592Z   /username
+
+2025-05-15T20:54:48.072Z   Welcome, client 0
+2025-05-15T20:54:50.942Z   Welcome, client 1
+2025-05-15T20:54:54.914Z   /username sdf
+
+2025-05-15T20:55:13.266Z   /w sdf hello
+
+2025-05-15T20:59:49.684Z   Welcome, client 0
+2025-05-15T20:59:53.336Z   Welcome, client 1
+2025-05-15T21:00:00.610Z   /w 0 hello!
+
+2025-05-15T21:00:21.041Z   Welcome, client 0
+2025-05-15T21:00:23.999Z   Welcome, client 1
+2025-05-15T21:00:28.840Z   /w 0 hello
+
+2025-05-15T21:01:14.399Z   Welcome, client 0
+2025-05-15T21:01:17.365Z   Welcome, client 1
+2025-05-15T21:01:22.703Z   /w 0 hello
+
+2025-05-15T21:01:29.706Z   /username cdf
+
+2025-05-15T21:02:07.852Z   Welcome, client 0
+2025-05-15T21:02:11.061Z   Welcome, client 1
+2025-05-15T21:02:16.226Z   /w cdf hello
+
+2025-05-15T21:02:24.652Z   /w hello
+
+2025-05-15T21:02:36.661Z   /w 0 hello
+
+2025-05-15T21:02:45.207Z   /username hello
+
+2025-05-15T21:02:58.142Z   /w 0 hello
+
+2025-05-15T21:07:16.983Z   Welcome, client 0
+2025-05-15T21:07:21.023Z   Welcome, client 1
+2025-05-15T21:07:29.013Z   haaaahahah
+
+2025-05-15T21:07:39.188Z   /username biggerbutt
+
+2025-05-15T21:08:00.080Z   /w biggerbutt hello
+
+2025-05-15T21:08:07.854Z   /w 1 hello
+
+2025-05-15T21:08:12.774Z   /w 0 hello
+
+2025-05-15T21:08:26.679Z   /username bigcheeks
+
+2025-05-15T21:08:34.252Z   /w 0 bigger
+
+2025-05-15T21:08:42.213Z   /w big bigger
+
+2025-05-15T21:09:20.889Z   /w big bigger biggest
+
+2025-05-15T21:12:59.711Z   Welcome, client 0
+2025-05-15T21:13:03.169Z   Welcome, client 1
+2025-05-15T21:13:09.067Z   /username david
+
+2025-05-15T21:13:18.499Z   /username goliath
+
+2025-05-15T21:13:28.441Z   /w goliath bigger butts
+
+2025-05-15T21:13:45.813Z   Welcome, client 0
+2025-05-15T21:13:50.601Z   Welcome, client 1
+2025-05-15T21:13:57.633Z   /username hello there
+
+2025-05-15T21:14:44.565Z   Welcome, client 0
+2025-05-15T21:14:48.885Z   Welcome, client 1
+2025-05-15T21:14:56.311Z   /w jackie hello
+
+2025-05-15T21:15:02.356Z   /w bennie hello
+
+2025-05-15T21:15:05.921Z   /w 0 hello
+
+2025-05-15T21:15:09.640Z   /w 1 hello
+
+2025-05-15T21:15:39.902Z   /w 1 hi
+
+2025-05-15T21:16:34.620Z   Welcome, client 0
+2025-05-15T21:16:39.399Z   Welcome, client 1
+2025-05-15T21:16:41.748Z   /w 0 hello
+
+2025-05-15T21:16:45.686Z   /w 1 hello
+
+2025-05-15T21:16:49.645Z   /w 2 hello
+
+2025-05-15T21:16:54.645Z   /w -1 hello
+
+2025-05-15T21:16:58.195Z   /w 0 hi
+
+2025-05-15T21:18:03.126Z   Welcome, client 0
+2025-05-15T21:18:07.143Z   Welcome, client 1
+2025-05-15T21:18:12.286Z   Client 0 has disconnected from the server
