@@ -8,3 +8,98 @@
 2025-05-01T16:47:09.915Z   hello
 
 2025-05-01T16:47:28.735Z   Welcome, client 1
+2025-05-15T13:50:58.409Z   Welcome, client 0
+2025-05-15T13:50:58.423Z   GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+2025-05-15T13:51:01.104Z   Client 0 has disconnected from the server
+2025-05-15T13:53:22.394Z   Welcome, client 0
+2025-05-15T13:54:07.967Z   Welcome, client 1
+2025-05-15T13:56:01.902Z   hello
+
+2025-05-15T14:06:12.461Z   Client 0 has disconnected from the server
+2025-05-15T14:06:14.863Z   Client 1 has disconnected from the server
+2025-05-15T14:07:00.272Z   Welcome, client 0
+2025-05-15T14:07:24.460Z   Welcome, client 1
+2025-05-15T14:07:56.373Z   Welcome, client 2
+2025-05-15T14:08:16.529Z   \w 2 hello there!
+
+2025-05-15T14:09:55.269Z   Welcome, client 0
+2025-05-15T14:10:10.562Z   Welcome, client 1
+2025-05-15T14:10:25.246Z   hello
+
+2025-05-15T14:10:40.576Z   /w 1 hello
+
+2025-05-15T14:13:54.809Z   Client 1 has disconnected from the server
+2025-05-15T14:13:54.908Z   Client 0 has disconnected from the server
+2025-05-15T14:14:22.033Z   Welcome, client 0
+2025-05-15T14:14:46.333Z   Welcome, client 1
+2025-05-15T14:15:01.063Z   /w 0 hello
+
+2025-05-15T14:17:40.103Z   Welcome, client 0
+2025-05-15T14:17:54.856Z   Welcome, client 1
+2025-05-15T14:18:01.724Z   /w 0 hello
+
+2025-05-15T14:18:01.725Z   0
+2025-05-15T14:19:12.474Z   Client 1 has disconnected from the server
+2025-05-15T14:19:12.574Z   Client 0 has disconnected from the server
+2025-05-15T14:19:44.597Z   Welcome, client 0
+2025-05-15T14:20:37.013Z   Welcome, client 0
+2025-05-15T14:20:55.475Z   Welcome, client 1
+2025-05-15T14:21:15.042Z   /w 1 hello
+
+2025-05-15T14:21:31.062Z   Welcome, client 0
+2025-05-15T14:21:33.743Z   Welcome, client 1
+2025-05-15T14:21:49.189Z   /w 1 hello
+
+2025-05-15T14:21:49.190Z   /w,1,hello
+2025-05-15T14:21:49.191Z   1
+2025-05-15T14:22:49.236Z   Welcome, client 0
+2025-05-15T14:22:52.228Z   Welcome, client 1
+2025-05-15T14:22:57.368Z   /w 1 hello
+
+2025-05-15T14:22:57.368Z   /w,1,hello
+2025-05-15T14:22:57.369Z   1
+2025-05-15T14:23:56.626Z   Welcome, client 0
+2025-05-15T14:23:59.199Z   Welcome, client 1
+2025-05-15T14:24:04.108Z   /w 1 hello
+
+2025-05-15T14:24:35.145Z   Welcome, client 0
+2025-05-15T14:24:38.018Z   Welcome, client 1
+2025-05-15T14:24:42.466Z   /w 1 hello
+
+2025-05-15T14:25:07.110Z   Welcome, client 0
+2025-05-15T14:25:10.103Z   Welcome, client 1
+2025-05-15T14:25:49.703Z   /w 1 hello
+
+2025-05-15T14:26:48.065Z   Welcome, client 0
+2025-05-15T14:26:51.285Z   Welcome, client 1
+2025-05-15T14:26:56.295Z   /w 1 hello
+
+2025-05-15T14:27:20.288Z   Welcome, client 0
+2025-05-15T14:27:23.514Z   Welcome, client 1
+2025-05-15T14:27:28.172Z   /w asdfasef
+
+2025-05-15T14:27:39.564Z   /w 1 hello there!
+
+2025-05-15T14:27:57.335Z   Welcome, client 0
+2025-05-15T14:28:00.203Z   Welcome, client 1
+2025-05-15T14:28:20.531Z   Welcome, client 2
+2025-05-15T14:28:26.849Z   /w 2 hello there!
+
+2025-05-15T14:28:38.289Z   /w 1 helo 
+
+2025-05-15T14:28:42.790Z   /w 0 hello
+

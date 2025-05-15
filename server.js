@@ -10,27 +10,38 @@ const server = net.createServer((socket) => {
     const id = clientId++;
     console.log("Client connected");
     socket.setEncoding("utf-8");
-    clients.set(id, socket)
+    clients.set(id, socket, "")
     let message = `Welcome, client ${id}`
     socket.write(message)
     logMessage(message)
 
     //when a client has connected, rebroadcast it to all clients
-    for (let [otherId, otherSocket] of clients) {
-        if (otherId !== id) {
-            otherSocket.write(`Client ${id} has connected to the server`)
-        }
-    }
+    sendMessage(id, `Client ${id} has connected to the server`, (searchID, otherID, userName) => {
+        return otherID !== id
+    })
 
     socket.on('data', (data) => {
         console.log(`Data received: ${data}`)
         logMessage(data);
-        
-        //when a client sends a message, rebroadcast it to all clients
-        for (let [otherId, otherSocket] of clients) {
-            if (otherId !== id) {
-                otherSocket.write(`Client ${id} says: ` + String(data))
-            }
+
+        const parts = data.toString().trim().split(" ");
+        const clientNumber = parts[1];
+        const message = parts.slice(2).join(" ");
+
+        if (parts.length < 3) {
+            socket.write("Invalid whisper format. Use /w <clientID> <message>\n")
+            return
+        }
+
+        if (parts[0] === "/w" || parts[0] === "/W") {
+            sendMessage(clientNumber, `Client ${clientNumber} whispers to you: ` + message, (searchID, otherID, userName) => {
+                return parseInt(searchID) === parseInt(otherID)
+            })
+        } else {
+            //when a client sends a message, rebroadcast it to all clients
+            sendMessage(id, `Client ${id} says: ` + String(data), (searchID, otherID, userName) => {
+                return otherID !== id
+            })
         }
     })
 
@@ -40,18 +51,22 @@ const server = net.createServer((socket) => {
         logMessage(disconnectMessage)
 
         //when a client disconnects, rebroadcast it to all clients
-        for (let [otherId, otherSocket] of clients) {
-            if (otherId !== id) {
-                otherSocket.write(disconnectMessage)
-            }
-        }
+        sendMessage(id, disconnectMessage, (searchID, otherID, userName) => {
+            return otherID !== id
+        })
         clients.delete(id);
     })
 }).listen(8080, () => {
     console.log("Server listening on port 8080")
 })
 
-
+function sendMessage(searchID, message, conditionFunction) {
+    for (let [otherID, otherSocket, userName] of clients) {
+        if (conditionFunction(searchID, otherID, userName)) {
+            otherSocket.write(message)
+        }
+    }
+}
 
 function logMessage(data) {
     const fileName = fileURLToPath(import.meta.url)
