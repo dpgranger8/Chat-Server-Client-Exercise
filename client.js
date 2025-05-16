@@ -6,5 +6,5 @@ const client = net.createConnection({port: 8080}, () => {
 })
 
 client.on('data', (data) => {
-    console.log("Data received from the server: " + String(data));
+    console.log(String(data));
 })

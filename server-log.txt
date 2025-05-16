@@ -221,3 +221,192 @@ Priority: u=0, i
 2025-05-15T21:18:03.126Z   Welcome, client 0
 2025-05-15T21:18:07.143Z   Welcome, client 1
 2025-05-15T21:18:12.286Z   Client 0 has disconnected from the server
+2025-05-16T00:05:03.391Z   Welcome, client 0
+2025-05-16T00:05:06.820Z   Welcome, client 1
+2025-05-16T00:05:15.352Z   /kick 0
+
+2025-05-16T00:05:24.351Z   /kick 0 supersecretpassword
+
+2025-05-16T00:05:50.293Z   Welcome, client 0
+2025-05-16T00:05:53.360Z   Welcome, client 1
+2025-05-16T00:06:01.455Z   /kick 0 supersecretpassword
+
+2025-05-16T00:06:01.456Z   Client 0 has disconnected from the server
+2025-05-16T00:06:12.377Z   hello
+
+2025-05-16T00:10:55.647Z   Welcome, client 0
+2025-05-16T00:11:00.427Z   Welcome, client 1
+2025-05-16T00:11:06.741Z   /kick 0 supersecretpassword
+
+2025-05-16T00:12:38.891Z   Welcome, client 0
+2025-05-16T00:12:41.624Z   Welcome, client 1
+2025-05-16T00:12:51.048Z   /kick 1 supersecretpassword
+
+2025-05-16T00:12:51.053Z   Client 1 has disconnected from the server
+2025-05-16T00:13:02.141Z   Welcome, client 2
+2025-05-16T00:13:17.024Z   /kick 1 supersecretpassword
+
+2025-05-16T00:13:23.940Z   /kick 0 supersecretpassword
+
+2025-05-16T00:13:23.944Z   Client 0 has disconnected from the server
+2025-05-16T00:13:36.680Z   Welcome, client 3
+2025-05-16T00:14:09.163Z   Welcome, client 0
+2025-05-16T00:14:12.101Z   Welcome, client 1
+2025-05-16T00:14:31.473Z   Welcome, client 2
+2025-05-16T00:14:42.829Z   /username howdy
+
+2025-05-16T00:14:51.142Z   howdy
+
+2025-05-16T00:15:11.588Z   /kick howdy supersecretpassword
+
+2025-05-16T00:15:42.644Z   Welcome, client 0
+2025-05-16T00:15:45.324Z   Welcome, client 1
+2025-05-16T00:15:48.508Z   Welcome, client 2
+2025-05-16T00:15:55.089Z   /username howdy
+
+2025-05-16T00:16:02.792Z   /kick howdy supersecretpassword
+
+2025-05-16T00:16:23.247Z   Welcome, client 0
+2025-05-16T00:16:26.262Z   Welcome, client 1
+2025-05-16T00:16:29.167Z   Welcome, client 2
+2025-05-16T00:16:36.688Z   /username howdy
+
+2025-05-16T00:16:46.564Z   /kick howdy supersecretpassword
+
+2025-05-16T00:17:41.395Z   Welcome, client 0
+2025-05-16T00:17:44.323Z   Welcome, client 1
+2025-05-16T00:17:51.193Z   /username howdy
+
+2025-05-16T00:18:00.493Z   /kick howdy supersecretpassword
+
+2025-05-16T00:18:46.477Z   Welcome, client 0
+2025-05-16T00:18:50.183Z   /username howdy
+
+2025-05-16T00:23:10.326Z   Welcome, client 0
+2025-05-16T00:23:14.613Z   Welcome, client 1
+2025-05-16T00:23:23.158Z   /kick hello supersecret
+
+2025-05-16T00:23:35.649Z   /kick hello supersecretpassword
+
+2025-05-16T00:23:53.228Z   /username howdy
+
+2025-05-16T00:24:05.338Z   /kick howdy supersecretpassword
+
+2025-05-16T00:24:05.342Z   Client 0 has disconnected from the server
+2025-05-16T00:25:29.053Z   Welcome, client 0
+2025-05-16T00:25:32.433Z   Welcome, client 1
+2025-05-16T00:25:35.968Z   Welcome, client 2
+2025-05-16T00:25:42.296Z   /username bruh
+
+2025-05-16T00:25:46.221Z   /username bruh
+
+2025-05-16T00:25:52.898Z   /username windy
+
+2025-05-16T00:26:21.107Z   Welcome, client 0
+2025-05-16T00:26:23.701Z   Welcome, client 1
+2025-05-16T00:26:28.468Z   /username hello
+
+2025-05-16T00:26:35.352Z   /kick hello supersecretness
+
+2025-05-16T00:26:35.357Z   Client 0 has disconnected from the server
+2025-05-16T00:28:32.474Z   Welcome, client 0
+2025-05-16T00:28:35.391Z   Welcome, client 1
+2025-05-16T00:28:38.354Z   Welcome, client 2
+2025-05-16T00:28:43.922Z   /username howdy
+
+2025-05-16T00:28:49.183Z   /kick howdy supersecret
+
+2025-05-16T00:28:54.966Z   /kick howddy super
+
+2025-05-16T00:28:59.328Z   /kick howdy
+
+2025-05-16T00:29:03.494Z   /kick
+
+2025-05-16T00:29:12.262Z   /kick howdy supersecretpassword
+
+2025-05-16T00:29:12.268Z   Client 2 has disconnected from the server
+2025-05-16T00:29:23.262Z   /kick 1 supersecretpassword
+
+2025-05-16T00:29:23.266Z   Client 1 has disconnected from the server
+2025-05-16T00:30:29.159Z   Welcome, client 0
+2025-05-16T00:30:34.008Z   /kick 0 hellothere
+
+2025-05-16T00:30:40.793Z   /kick 0 supersecretpassword
+
+2025-05-16T00:31:12.053Z   Welcome, client 1
+2025-05-16T00:31:22.150Z   /kick 0 supersecretpassword
+
+2025-05-16T00:31:22.155Z   Client 0 has disconnected from the server
+2025-05-16T00:34:35.026Z   Welcome, client 0
+2025-05-16T00:34:37.704Z   Welcome, client 1
+2025-05-16T00:34:42.946Z   /kick 0 supersecretpassword
+
+2025-05-16T00:34:42.952Z   Client 0 has disconnected from the server
+2025-05-16T00:35:46.447Z   Welcome, client 0
+2025-05-16T00:35:48.972Z   Welcome, client 1
+2025-05-16T00:36:12.491Z   /kick 1 supersecretpassword
+
+2025-05-16T00:36:12.498Z   Client 1 has disconnected from the server
+2025-05-16T00:36:56.455Z   Client 0 has disconnected from the server
+2025-05-16T00:39:38.346Z   Welcome, client 0
+2025-05-16T00:39:44.204Z   /clientlist
+
+2025-05-16T00:40:09.125Z   Welcome, client 0
+2025-05-16T00:40:12.383Z   /clientlist
+
+2025-05-16T00:40:37.460Z   Welcome, client 0
+2025-05-16T00:40:44.630Z   /clientlist
+
+2025-05-16T00:41:11.224Z   Welcome, client 0
+2025-05-16T00:41:13.956Z   /clientlist
+
+2025-05-16T00:44:01.840Z   Welcome, client 1
+2025-05-16T00:44:05.864Z   Welcome, client 2
+2025-05-16T00:44:09.532Z   /clientlist
+
+2025-05-16T00:46:33.841Z   Welcome, client 0
+2025-05-16T00:46:35.487Z   /clientlist
+
+2025-05-16T00:46:52.012Z   Welcome, client 0
+2025-05-16T00:46:56.202Z   /clientlist
+
+2025-05-16T00:47:02.518Z   Welcome, client 1
+2025-05-16T00:47:06.942Z   Welcome, client 2
+2025-05-16T00:47:10.931Z   /username howdy
+
+2025-05-16T00:47:14.454Z   /username david
+
+2025-05-16T00:47:17.226Z   /clientlist
+
+2025-05-16T00:48:00.442Z   Welcome, client 0
+2025-05-16T00:48:02.685Z   /username david
+
+2025-05-16T00:48:06.138Z   Welcome, client 1
+2025-05-16T00:48:09.095Z   /username cash
+
+2025-05-16T00:48:14.505Z   Welcome, client 2
+2025-05-16T00:48:16.738Z   /clientlist
+
+2025-05-16T00:49:27.722Z   Welcome, client 0
+2025-05-16T00:49:30.817Z   Welcome, client 1
+2025-05-16T00:49:32.697Z   /username cash
+
+2025-05-16T00:49:37.955Z   /username cash
+
+2025-05-16T00:49:42.626Z   /username david
+
+2025-05-16T00:49:51.001Z   Welcome, client 2
+2025-05-16T00:49:53.770Z   /clientlist
+
+2025-05-16T00:51:53.542Z   Welcome, client 0
+2025-05-16T00:51:57.083Z   Welcome, client 1
+2025-05-16T00:52:00.208Z   /username david
+
+2025-05-16T00:52:05.709Z   /usernamd chad
+
+2025-05-16T00:52:10.469Z   /username chad
+
+2025-05-16T00:52:14.278Z   Welcome, client 2
+2025-05-16T00:52:16.880Z   /clientlist
+
+2025-05-16T00:52:56.296Z   Client 2 has disconnected from the server
